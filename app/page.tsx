@@ -30,14 +30,14 @@ export default function Home() {
         /> */}
     </div>
 
-    <div className="h-[45rem] py-15 flex justify-between">
+    <div className="h-[45rem] md:h-[34rem] py-15 flex justify-between">
       <img
       src={'/images/unhas_mainPage.jpg'}
       alt="unhas_exemplo2"
       className="flex h-full pl-19"
       />
 
-      <div className="relative flex flex-col font-semibold text-center gap-6 w-[45rem] right-[10%] justify-center text-[18px]">
+      <div className="relative flex flex-col font-semibold text-center gap-6 w-[45rem] md:w-[33rem] right-[10%] justify-center text-[18px]">
         ✨ Descubra a Sua Melhor Versão! ✨
         
         <p>
@@ -77,7 +77,7 @@ export default function Home() {
         />
       </div>
 
-      <div className="bg-green-500 w-[25%] flex justify-center pt-[10%]">
+      <div className=" w-[25%] flex justify-center pt-[10%]">
         as
       </div>
     </div>
