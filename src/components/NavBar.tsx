@@ -4,31 +4,29 @@ import Link from "next/link";
 
 export default function Navbar() {
 
+    const style_subPages = "flex items-center h-full px-2 hover:text-white"
+
     return(
-        <nav className="flex justify-between px-14 py-3 bg-red-300">
-            <Link href='/'>
+        <nav className="flex justify-between px-14 h-12 bg-[#ACB1F9]">
+            <Link href='/' className="flex items-center h-full px-2 hover:text-white font-bold text-[18px]">
                 Homepage
             </Link>
 
-            <ul className="flex gap-10">
-                <li>
-                    <Link href='/contatos'>
-                    Contatos
-                    </Link>
-                </li>
-
-                <li>
-                    <Link href='/atendimento'>
-                    Horários de atendimento
-                    </Link>
-                </li>
-
-                <li>
-                    <Link href='/sobre-nos'>
-                    Sobre nós
-                    </Link>
-                </li>
-            </ul>
+            <div className="flex gap-7 h-full">
+                
+                <Link href='/contatos' className={style_subPages}>
+                Contatos
+                </Link>
+            
+                <Link href='/atendimento' className={style_subPages}>
+                Horários de atendimento
+                </Link>
+            
+                <Link href='/sobre-nos' className={style_subPages}>
+                Sobre nós
+                </Link>
+                
+            </div>
         </nav>
     )
 }
