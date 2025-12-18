@@ -7,7 +7,7 @@ export default function Navbar() {
     const style_subPages = "flex items-center h-full px-2 hover:text-white"
 
     return(
-        <nav className="flex justify-between px-14 h-12 bg-[#ACB1F9]">
+        <nav className="flex justify-between px-14 h-18 bg-[#ACB1F9]">
             <Link href='/' className="flex items-center h-full px-2 hover:text-white font-bold text-[18px]">
                 Homepage
             </Link>

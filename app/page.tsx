@@ -4,9 +4,8 @@ export default function Home() {
   return (
     <div className="h-fit pb-50">
 
-      <div className="flex w-full h-fit pt-10">
+      <div className="flex w-full h-[55rem] pt-10">
 
-        {/* <div className="absolute top-[20rem] left-[14rem] z-10"> */}
         <div className="relative left-15 flex flex-col w-[70rem] max-2xl:w-[60rem] text-center justify-center">
           <h1 className="text-[60px] max-2xl:text-[40px]">
             Reinald Estética
@@ -20,21 +19,19 @@ export default function Home() {
         <div className="w-full flex items-end justify-end px-17">
           <img src={'/images/unhas_mainPage2.jpg'}
           alt='unhas_exemplo'
-          className="flex w-[60rem] self-end"
+          className="flex w-[60rem] self-center"
           />
+          {/* CARROUSEL */}
         </div>
 
-        {/* <img
-        src='/images/unhas_mainPage.jpg'
-        className="flex w-[35rem]"
-        /> */}
-    </div>
+      </div>
 
     <div className="h-[45rem] max-2xl:h-[37rem] py-15 flex justify-between">
       <img
       src={'/images/unhas_mainPage.jpg'}
       alt="unhas_exemplo2"
-      className="flex h-full pl-19 max-2xl:pl-21"
+      className="flex h-full pl-19 max-2xl:pl-21 transition-all delay-150
+      hover:brightness-50 hover:transition-all hover:delay-150"
       />
 
       <div className="relative flex flex-col font-semibold text-center gap-6 w-[45rem] max-2xl:w-[25rem] right-[10%] max-2xl:right-[15%] justify-center text-[18px] max-2xl:text-[15px]">
