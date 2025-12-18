@@ -30,14 +30,14 @@ export default function Home() {
         /> */}
     </div>
 
-    <div className="h-[45rem] max-2xl:h-[34rem] py-15 flex justify-between">
+    <div className="h-[45rem] max-2xl:h-[37rem] py-15 flex justify-between">
       <img
       src={'/images/unhas_mainPage.jpg'}
       alt="unhas_exemplo2"
-      className="flex h-full pl-19"
+      className="flex h-full pl-19 max-2xl:pl-21"
       />
 
-      <div className="relative flex flex-col font-semibold text-center gap-6 w-[45rem] max-2xl:w-[25rem] right-[10%] justify-center text-[18px] max-2xl:text-[15px]">
+      <div className="relative flex flex-col font-semibold text-center gap-6 w-[45rem] max-2xl:w-[25rem] right-[10%] max-2xl:right-[15%] justify-center text-[18px] max-2xl:text-[15px]">
         ✨ Descubra a Sua Melhor Versão! ✨
         
         <p>
@@ -54,35 +54,63 @@ export default function Home() {
       </div>
     </div>
 
-    <div className="h-[65rem] max-2xl:h-[50rem] w-full flex justify-between px-10 py-30 max-2xl:py-35">
-      <div className="w-[25%] flex justify-center items-center">
+    <div className="h-[65rem] max-2xl:h-[53rem] w-full flex justify-between px-10 py-30 max-2xl:py-35">
+      <div className="w-[25%] flex flex-col justify-around items-center">
 
         <div className="flex flex-col gap-3">
-          <h2 className="font-bold">
+          <h3 className="font-bold">
             Sobrancelhas
-          </h2>
-        <ul className="flex flex-col gap-4">
-          <li className="before:content-['•_']">
-            Design personalizado para o seu rosto.
-          </li>
+          </h3>
+          <ul className="flex flex-col gap-4">
+            <li className="before:content-['•_']">
+              Design personalizado para o seu rosto.
+            </li>
 
-          <li>
-            Olhar marcante e natural.
-          </li>
+            <li className="before:content-['•_']">
+              Olhar marcante e natural.
+            </li>
 
-          <li>
-            Henna de alta durabilidade.
-          </li>
-          
+            <li className="before:content-['•_']">
+              Henna de alta durabilidade.
+            </li>
 
-          <li>
-            Arquitetura do olhar com precisão.
-          </li>
+            <li className="before:content-['•_']">
+              Arquitetura do olhar com precisão.
+            </li>
 
-          <li>
-            Simetria que valoriza sua beleza.
-          </li>
-        </ul>
+            <li className="before:content-['•_']">
+              Simetria que valoriza sua beleza.
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 className="font-bold">
+            Depilação
+          </h3>
+
+          <ul>
+            <li className="before:content-['•_']">
+              Pele lisa e macia por mais tempo.
+            </li>
+
+            <li className="before:content-['•_']">
+              Técnicas que minimizam o desconforto.
+            </li>
+
+            <li className="before:content-['•_']">
+              Higiene e cuidado em cada detalhe.
+            </li>
+
+            <li className="before:content-['•_']">
+              Livre-se dos pelos com suavidade.
+            </li>
+
+            <li className="before:content-['•_']">
+              Depilação facial e corporal completa.
+            </li>
+          </ul>
+
         </div>
 
       </div>
@@ -91,22 +119,47 @@ export default function Home() {
         <img
         src='/images/sobrancelha_1.jpg'
         alt="sobrancelha_1"
-        className="flex w-[39%] absolute left-[10%] z-20 rotate-5"
+        className="flex w-[39%] max-2xl:w-[37%] absolute left-[10%] max-2xl:left-[11%] z-20 rotate-5"
         />
         <img
         src='/images/unhas_mainPage3.jpg'
         alt="unhas 3"
-        className="flex w-[50%] absolute right-0 top-20 max-2xl:top-12 z-10"
+        className="flex w-[50%] absolute right-0 top-20 max-2xl:top-9 z-10"
         />
         <img
         src='/images/depilation_homepage1.jpg'
         alt="unhas 3"
-        className="flex w-[70%] absolute bottom-0 left-0 -rotate-10"
+        className="flex w-[70%] max-2xl:w-[60%] absolute bottom-0 left-0 -rotate-10"
         />
       </div>
 
       <div className=" w-[25%] flex justify-center pt-[10%]">
-        as
+        <h3 className="font-bold">
+          Unhas
+        </h3>
+        
+        <ul>
+          <li className="before:content-['•_']">
+            Manicure e pedicure profissional.
+          </li>
+
+          <li className="before:content-['•_']">
+            Esmaltação impecável e duradoura.
+          </li>
+
+          <li className="before:content-['•_']">
+            Saúde e estética para suas mãos.
+          </li>
+
+          <li className="before:content-['•_']">
+            Alongamentos com acabamento natural.
+          </li>
+
+          <li className="before:content-['•_']">
+            Cutilagem delicada e segura.
+          </li>
+        </ul>
+
       </div>
     </div>
 
