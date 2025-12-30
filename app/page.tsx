@@ -4,9 +4,9 @@ export default function Home() {
   return (
     <div className="h-fit pb-50">
 
-      <div className="flex w-full h-[55rem] pt-10">
+      <div className="flex w-full justify-between px-15 max-h-[55rem] pt-10">
 
-        <div className="relative left-15 flex flex-col w-[70rem] text-center justify-center">
+        <div className="flex flex-col max-w-[70rem] bg-amber-300 text-center justify-center">
           <h1 className="text-[60px]">
             Reinald Estética
           </h1>
@@ -16,25 +16,27 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="w-full flex items-end justify-end px-17">
+          <picture>
+          <source media="(max-width: 800px)" srcSet='/images/unhas_mainPage2.jpg'/>
           <img src={'/images/unhas_mainPage2.jpg'}
           alt='unhas_exemplo'
-          className="flex w-[60rem] self-center"
+          className="flex w-full max-w-[60rem]"
           />
+          </picture>
           {/* CARROUSEL */}
-        </div>
 
       </div>
 
-    <div className="h-[45rem] py-15 flex justify-between">
+    <div className="max-h-[45rem] py-15 flex justify-between px-20 m-auto">
       <img
       src={'/images/unhas_mainPage.jpg'}
+      srcSet={'/images/unhas_mainPage.jpg'}
       alt="unhas_exemplo2"
-      className="flex h-full pl-19 transition-all delay-150
+      className="flex w-full max-w-[800px] transition-all delay-150
       hover:brightness-50 hover:transition-all hover:delay-150"
       />
 
-      <div className="relative flex flex-col font-semibold text-center gap-6 w-[45rem] right-[10%] justify-center text-[18px]">
+      <div className="relative flex flex-col font-semibold text-center gap-6 max-w-[45rem] justify-center text-[18px]">
         ✨ Descubra a Sua Melhor Versão! ✨
         
         <p>
