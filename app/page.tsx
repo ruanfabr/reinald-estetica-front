@@ -6,12 +6,12 @@ export default function Home() {
 
       <div className="flex w-full h-[55rem] pt-10">
 
-        <div className="relative left-15 flex flex-col w-[70rem] max-2xl:w-[60rem] text-center justify-center">
-          <h1 className="text-[60px] max-2xl:text-[40px]">
+        <div className="relative left-15 flex flex-col w-[70rem] text-center justify-center">
+          <h1 className="text-[60px]">
             Reinald Estética
           </h1>
 
-          <p className="text-[35px] max-2xl:text-[25px]">
+          <p className="text-[35px]">
             Entre bonita e saia irresistível
           </p>
         </div>
@@ -26,15 +26,15 @@ export default function Home() {
 
       </div>
 
-    <div className="h-[45rem] max-2xl:h-[37rem] py-15 flex justify-between">
+    <div className="h-[45rem] py-15 flex justify-between">
       <img
       src={'/images/unhas_mainPage.jpg'}
       alt="unhas_exemplo2"
-      className="flex h-full pl-19 max-2xl:pl-21 transition-all delay-150
+      className="flex h-full pl-19 transition-all delay-150
       hover:brightness-50 hover:transition-all hover:delay-150"
       />
 
-      <div className="relative flex flex-col font-semibold text-center gap-6 w-[45rem] max-2xl:w-[25rem] right-[10%] max-2xl:right-[15%] justify-center text-[18px] max-2xl:text-[15px]">
+      <div className="relative flex flex-col font-semibold text-center gap-6 w-[45rem] right-[10%] justify-center text-[18px]">
         ✨ Descubra a Sua Melhor Versão! ✨
         
         <p>
@@ -51,10 +51,10 @@ export default function Home() {
       </div>
     </div>
 
-    <div className="h-[65rem] max-2xl:h-[53rem] w-full flex justify-between px-10 py-30 max-2xl:py-35">
+    <div className="h-[65rem] w-full flex justify-between px-10 py-30">
       <div className="w-[25%] flex flex-col justify-around items-center">
 
-        <div className="flex flex-col gap-3">
+        <div className="flex flex-col` gap-3">
           <h3 className="font-bold">
             Sobrancelhas
           </h3>
@@ -116,17 +116,17 @@ export default function Home() {
         <img
         src='/images/sobrancelha_1.jpg'
         alt="sobrancelha_1"
-        className="flex w-[39%] max-2xl:w-[37%] absolute left-[10%] max-2xl:left-[11%] z-20 rotate-5"
+        className="flex w-[39%] absolute left-[10%] z-20 rotate-5"
         />
         <img
         src='/images/unhas_mainPage3.jpg'
         alt="unhas 3"
-        className="flex w-[50%] absolute right-0 top-20 max-2xl:top-9 z-10"
+        className="flex w-[50%] absolute right-0 top-20 z-10"
         />
         <img
         src='/images/depilation_homepage1.jpg'
         alt="unhas 3"
-        className="flex w-[70%] max-2xl:w-[60%] absolute bottom-0 left-0 -rotate-10"
+        className="flex w-[70%] absolute bottom-0 left-0 -rotate-10"
         />
       </div>
 
