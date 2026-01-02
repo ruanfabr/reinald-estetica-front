@@ -15,6 +15,21 @@ body {
 }
 
 
+@media (max-width: 1090px) {
+  .title {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 1090px) {
+  .title {
+    font-size: 60px;
+  }
+  
+  .title2 {
+    font-size: 18px;
+  }
+}
 
 /*
 colors

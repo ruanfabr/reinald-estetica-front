@@ -2,16 +2,16 @@ export default function Home() {
 
 
   return (
-    <div className="h-fit pb-50">
+    <div className="h-fit pb-50 gap-[30px]">
 
-      <div className="flex w-full justify-between px-15 max-h-[55rem] pt-10">
+      <div className="flex w-full flex-wrap justify-between px-15 max-h-[55rem] pt-10 gap-12">
 
-        <div className="flex flex-col max-w-[70rem] bg-amber-300 text-center justify-center">
-          <h1 className="text-[60px]">
+        <div className="flex flex-col text-center justify-center">
+          <h1 className="title">
             Reinald Estética
           </h1>
 
-          <p className="text-[35px]">
+          <p className="min-[1090px]:text-[35px] max-[1500px]:text-[22px]">
             Entre bonita e saia irresistível
           </p>
         </div>
@@ -20,23 +20,25 @@ export default function Home() {
           <source media="(max-width: 800px)" srcSet='/images/unhas_mainPage2.jpg'/>
           <img src={'/images/unhas_mainPage2.jpg'}
           alt='unhas_exemplo'
-          className="flex w-full max-w-[60rem]"
+          className="flex w-full max-w-[58rem]"
           />
           </picture>
           {/* CARROUSEL */}
 
       </div>
 
-    <div className="max-h-[45rem] py-15 flex justify-between px-20 m-auto">
+    <div className="max-h-[65rem] flex-wrap-reverse py-15 flex justify-between px-20 m-auto gap-15">
+      <picture>
+      <source media="(max-width: 800px)" srcSet='/images/unhas_mainPage.jpg'/>
       <img
       src={'/images/unhas_mainPage.jpg'}
-      srcSet={'/images/unhas_mainPage.jpg'}
       alt="unhas_exemplo2"
       className="flex w-full max-w-[800px] transition-all delay-150
       hover:brightness-50 hover:transition-all hover:delay-150"
       />
+      </picture>
 
-      <div className="relative flex flex-col font-semibold text-center gap-6 max-w-[45rem] justify-center text-[18px]">
+      <div className="relative flex flex-col font-semibold text-center gap-6 max-w-[45rem] justify-center title2">
         ✨ Descubra a Sua Melhor Versão! ✨
         
         <p>
@@ -53,8 +55,8 @@ export default function Home() {
       </div>
     </div>
 
-    <div className="h-[65rem] w-full flex justify-between px-10 py-30">
-      <div className="w-[25%] flex flex-col justify-around items-center">
+    {/* <div className="h-[65rem] w-full flex justify-between px-10 py-30">
+      <div className="w-[25%] flex flex-col justify-around items-center flex-wrap">
 
         <div className="flex flex-col` gap-3">
           <h3 className="font-bold">
@@ -160,9 +162,7 @@ export default function Home() {
         </ul>
 
       </div>
-    </div>
-
-
+    </div> */}
 
     </div>
   );
