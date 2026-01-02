@@ -7,7 +7,8 @@ export default function Navbar() {
 
     const [seeLinks, setSeeLinks] = useState(false)
 
-    const style_subPages = "flex items-center h-full px-2 hover:text-white max-[850px]:bg-gray-500"
+    // max-[850px]:bg-gray-500
+    const style_subPages = "flex items-center h-full px-2 hover:text-white"
 
     return(
         <nav className="flex justify-between px-14 h-18 bg-[#ACB1F9] relative">
@@ -19,9 +20,9 @@ export default function Navbar() {
                 oi
             </button>
 
-            <div className={`gap-7 h-full min-[850px]:flex 
+            <div className={`gap-7 h-full flex 
                 ${seeLinks? 'block':'hidden'}
-                max-[850px]:absolute max-[850px]:bg-gray-500 max-[850px]:top-18 max-[850px]:right-0
+                max-[850px]:absolute max-[850px]:bg-gray-500 max-[850px]:top-18 max-[850px]:right-2 max-[850px]:h-fit max-[850px]:gap-5 max-[850px]:flex-col
                 `}>
                 
                 <Link href='/contatos' className={style_subPages} onClick={() => setSeeLinks(!seeLinks)}>

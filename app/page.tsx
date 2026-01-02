@@ -2,11 +2,11 @@ export default function Home() {
 
 
   return (
-    <div className="h-fit pb-50 gap-[30px]">
+    <div className="max-w-screen flex flex-col h-fit pb-40 max-[750px]:gap-[9rem] gap-[15rem]">
 
-      <div className="flex w-full flex-wrap justify-between px-15 max-h-[55rem] pt-10 gap-12">
+      <div className="flex w-full flex-wrap justify-between px-15 max-h-[55rem] pt-10 gap-5">
 
-        <div className="flex flex-col text-center justify-center">
+        <div className="flex flex-col text-center justify-center m-auto">
           <h1 className="title">
             Reinald Estética
           </h1>
@@ -16,44 +16,37 @@ export default function Home() {
           </p>
         </div>
 
-          <picture>
-          <source media="(max-width: 800px)" srcSet='/images/unhas_mainPage2.jpg'/>
+          <picture className="m-auto">
+          <source media="(max-width: 800px)" srcSet='/images/unhas_mainPage2.jpg'
+          className=""/>
           <img src={'/images/unhas_mainPage2.jpg'}
           alt='unhas_exemplo'
-          className="flex w-full max-w-[58rem]"
+          className="flex w-full max-w-[56rem]"
           />
           </picture>
           {/* CARROUSEL */}
 
       </div>
 
-    <div className="max-h-[65rem] flex-wrap-reverse py-15 flex justify-between px-20 m-auto gap-15">
-      <picture>
-      <source media="(max-width: 800px)" srcSet='/images/unhas_mainPage.jpg'/>
-      <img
-      src={'/images/unhas_mainPage.jpg'}
-      alt="unhas_exemplo2"
-      className="flex w-full max-w-[800px] transition-all delay-150
-      hover:brightness-50 hover:transition-all hover:delay-150"
-      />
-      </picture>
+      <div className="max-h-[65rem] flex-wrap-reverse flex justify-between px-20 m-auto gap-22 
+      max-[1690px]:justify-center max-[1690px]:gap-5
+      ">
+        <picture className="flex justify-center">
+        <source media="(max-width: 800px)" srcSet='/images/unhas_mainPage.jpg'/>
+        <img
+        src={'/images/unhas_mainPage.jpg'}
+        alt="unhas_exemplo2"
+        className="flex w-full max-w-[800px] transition-all delay-150
+        hover:brightness-50 hover:transition-all hover:delay-150
+        max-[1690px]:w-[90%]"
+        />
+        </picture>
 
-      <div className="relative flex flex-col font-semibold text-center gap-6 max-w-[45rem] justify-center title2">
-        ✨ Descubra a Sua Melhor Versão! ✨
-        
-        <p>
-          Invista nos detalhes que transformam sua expressão! Na Reinald Estética, somos especialistas em realçar o que você tem de melhor, focando na precisão e arte das unhas e sobrancelhas.
-        </p>
-
-        <p>
-          Nossas manicures e designers utilizam técnicas exclusivas, garantindo unhas impecáveis (durabilidade e saúde) e sobrancelhas desenhadas sob medida para o seu rosto. Diga adeus às falhas e ao formato desalinhado!
-        </p>
-
-        <p>
-          Agende seu horário! Eleve sua beleza e sinta a confiança que vem de um visual cuidado e harmonioso.
-        </p>
+        <div className="relative flex flex-col font-semibold text-center gap-6 max-w-[42rem] justify-center title2
+        max-[1690px]:gap-3">
+          Agende seu horário! <br/> Eleve sua beleza e sinta a confiança que vem de um visual cuidadoso e harmonioso.
+        </div>
       </div>
-    </div>
 
     {/* <div className="h-[65rem] w-full flex justify-between px-10 py-30">
       <div className="w-[25%] flex flex-col justify-around items-center flex-wrap">
