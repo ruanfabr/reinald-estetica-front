@@ -20,7 +20,7 @@ export default function Navbar() {
                 oi
             </button>
 
-            <div className={`gap-7 h-full flex 
+            <div className={`gap-7 h-full min-[851px]:flex 
                 ${seeLinks? 'block':'hidden'}
                 max-[850px]:absolute max-[850px]:bg-gray-500 max-[850px]:top-18 max-[850px]:right-2 max-[850px]:h-fit max-[850px]:gap-5 max-[850px]:flex-col
                 `}>
