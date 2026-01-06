@@ -8,7 +8,7 @@ export default function Navbar() {
     const [seeLinks, setSeeLinks] = useState(false)
 
     // max-[850px]:bg-gray-500
-    const style_subPages = "flex items-center h-full px-3 hover:text-white"
+    const style_subPages = "flex items-center h-full px-3 hover:text-white font-bold"
 
     return(
         <nav className="flex justify-between px-14 max-[850px]:px-5 h-18 bg-[#ACB1F9] relative">

@@ -7,14 +7,14 @@ import { FaWhatsapp,
 export default function Contatos(){
 
     const styleSocialButtons = 'border-2 p-3 hover:bg-black hover:text-white'
+    const component_input = 'border-1 rounded-sm py-2 px-2 text-[19px]'
 
     return(
-        <div className=''>
-            <div className="py-10"/>
-            <div className="pt-2 flex flex-col px-10 gap-8">
+        <div className='h-fit pb-5'>
+            <div className="pt-2 flex flex-col px-10 gap-8 pt-12">
                 <h1 className="title m-auto ">Nossos Contatos</h1>
 
-                <p className="font-semibold">
+                <p className="font-semibold text-[19px]">
                     Sede <br/>
 
                     Av. Frei Cirilo, 3840 - Messejana,<br/>
@@ -44,6 +44,22 @@ export default function Contatos(){
                         Entre em contato conosco
                     </h2>
 
+                    <div className="pt-7 flex flex-col gap-6">
+                        <label className="gap-1 flex flex-col">
+                            Nome
+                            <input type="text" className={component_input}/>
+                        </label>
+
+                        <label className="gap-1 flex flex-col">
+                            Email
+                            <input type="text" className={component_input}/>
+                        </label>
+
+                        <label className="gap-1 flex flex-col">
+                            Mensagem
+                            <textarea className="border-1 rounded-sm py-2 px-2 text-[16px] h-[7rem]"/>
+                        </label>
+                    </div>
                 </div>
 
             </div>
