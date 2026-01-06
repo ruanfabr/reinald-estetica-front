@@ -11,7 +11,7 @@ export default function Contatos(){
 
     return(
         <div className='h-fit pb-5'>
-            <div className="pt-2 flex flex-col px-10 gap-8 pt-12">
+            <div className="flex flex-col px-10 gap-8 pt-12">
                 <h1 className="title m-auto ">Nossos Contatos</h1>
 
                 <p className="font-semibold text-[19px]">
